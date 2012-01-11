@@ -1,0 +1,102 @@
+Cube Explorer 2  is no update of Cube Explorer 1.5 but a completely new
+development written in Delphi. The major improvements to version 1.5 are:
+
+- more intelligent facelet-editor with automatic error correction
+- more powerful pattern-editor
+- a much (about 50 times) faster two-phase-algorithm
+- integration of the optimal solver
+- multithreading for computations on several cubes at the same time
+- possibility to search maneuvers from one cube state to another
+
+
+The price for the faster algorithms is a higher memory requirement. With 128 MB of RAM
+you will have no problems.
+
+Maybe there are still a few bugs. If you find a bug or have other suggestions for
+improvements please mail to: kociemba@t-online.de
+
+
+And please don't forget: Cube Explorer is freeware.  If you would like
+to reward the extensive work which was necessary to develop the
+user-interface and the mathematical theory for the algorithm (although
+this part was fun), please send a postcard from where you live to:
+
+
+Herbert Kociemba
+Bismarckstr. 31
+D-64293 Darmstadt
+Germany
+
+
+Version History:
+
+2002-09-01 Cube Explorer 2.25
+           - Type of Metric displayed behind maneuver length now(f: Face Turn Metric,
+             q: Quarter Turn Metric).
+           - Source Code support to compile a Quarter Turn Metric version of
+             Cube Explorer (in cubedefs.pas).
+           - Possibility to find more than one optimal maneuver with the Optimal Solvers.
+	   - Current filename displayed in caption of window.
+           - Description of the mathematics behind Cube Explorer in the Help File.
+           - Some routines rewritten, source code documentation improved.
+
+2002-02-09 Cube Explorer 2.21
+           - Improved help file
+           - Two-Phase algorithm about 50% faster.
+           - Possibility to toggle Multiple Direction Search
+
+2002-02-02 Cube Explorer 2.20 (so many 2's and 0's)
+           - A basic context-sensitive help is now available - finally!
+           - Speed of the Huge Optimal increased by about 40%.
+
+2002-01-14 Cube Explorer 2.14
+           - The "Simple Modification" from Version 2.13 is not possible with
+             the Huge Optimal Solver and had to be removed again for this solver.
+           - Additional information about the number of generated nodes and the
+             computing time for an Optimal Search, accessible when moving the mouse
+             over the Optimal-Checkbox during the search.
+
+2002-01-13 Cube Explorer 2.13
+           - Right mouse button usage for faceturns in the Facelet Editor.
+           - Simple modification of the algorithm increases the speed of the
+             Optimal Solver(s) by about 35% (thanks Michiel de Bondt!).
+           - Bug fixed which occasionally crashed the program on closing.
+
+2001-11-20 Cube Explorer 2.12
+           - Optimized storage of the pattern databases with 1.6 bit/pattern
+             reduces the size of the big tables by 20%.
+
+2001-10-20 Cube Explorer 2.11
+           - The Source Code did not compile properly under Delphi 6 due to
+             changes in the TThread class.
+           - Improved texts for several Messageboxes.
+
+2001-10-04 Cube Explorer 2.1
+           - Improved pruning table generation algorithm doubles the speed
+             on first start (9min instead of 19 minutes on my P550MHz system).
+           - Additional implementation of a very fast optimal solver for power
+             users with 1 GB of RAM.          
+
+2001-09-23 Cube Explorer 2.04
+           - File|Exit did not work. Never used this feature before...
+		
+2001-09-09 Cube Explorer 2.03
+           - Double buffering bug fixed.
+           - Output of Cube Explorer can now generate a HTML file displaying a
+             Java Applet for 3D-view of the cubes.
+
+2001-09-08 Cube Explorer 2.02
+           - Double buffering the Output Window to reduce flickering on scrolling
+
+2001-09-01 Cube Explorer 2.01      
+           - 2 minor bugs concerning the Two-Phase-Algorithm removed.
+           - Faster generation of the 34.5 MB Pruning Table.
+           - Minimum Size for the Main Window.
+           - Physical Memory Detection. The program terminates if there is less than
+             90 MB of RAM installed.
+
+
+2001-08-19 Release of Cube Explorer 2.0
+
+
+
